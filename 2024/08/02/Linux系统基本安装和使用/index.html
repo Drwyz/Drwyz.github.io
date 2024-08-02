@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="如何科学地提问, wyzhii&#39;s blog">
-    <meta name="description" content="在阅读《提问的智慧》和《别像弱智一样提问》这两篇文章后，我对“好的提问”以及“通过STFW和RTFM独立解决问题”的理解有了更深刻的体会。作为一个比较内向的人，我往往在遇到问题时不敢主动提问，更倾向于通过自己钻研来寻找答案。这些文章提供的观">
+    <meta name="keywords" content="Linux系统基本安装和使用, wyzhii&#39;s blog">
+    <meta name="description" content="PA0 - 世界诞生的前夜: 开发环境配置PA0 主要包括安装 Ubuntu 操作系统、必要工具及获取源码。在这里，我推荐几个非常实用的开发工具：
+
+zsh：提供自动补全和个性化主题功能，提升终端使用体验。
+autojump：帮助在文件路径">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>如何科学地提问 | wyzhii&#39;s blog</title>
+    <title>Linux系统基本安装和使用 | wyzhii&#39;s blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
     
 
@@ -330,12 +333,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">如何科学地提问</h1>
+                    <h1 class="description center-align post-title">Linux系统基本安装和使用</h1>
                 </div>
             </div>
         </div>
@@ -355,21 +358,16 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                    <div class="article-tag">
                         
-                            <a href="/categories/%E4%B8%80%E7%94%9F%E4%B8%80%E8%8A%AF%E9%A2%84%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                一生一芯预学习
+                            <a href="/tags/%E4%B8%80%E7%94%9F%E4%B8%80%E8%8A%AF%E9%A2%84%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">一生一芯预学习</span>
                             </a>
                         
                     </div>
+                    
+                </div>
+                <div class="col s5 right-align">
                     
                 </div>
             </div>
@@ -399,18 +397,54 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在阅读《提问的智慧》和《别像弱智一样提问》这两篇文章后，我对“好的提问”以及“通过STFW和RTFM独立解决问题”的理解有了更深刻的体会。作为一个比较内向的人，我往往在遇到问题时不敢主动提问，更倾向于通过自己钻研来寻找答案。这些文章提供的观点和建议，对我来说非常有启发。</p>
-<p><strong>一、对“好的提问”的理解</strong></p>
-<p>“好的提问”不仅能帮助提问者快速获取有用的信息，还能使回答者更高效地提供帮助。文章中提到，提问应该具备明确性、具体性和礼貌性。</p>
-<p>首先，<strong>明确性和具体性</strong>是提问的关键。虽然我通常倾向于自己琢磨问题，但有时候明确的问题描述能够帮助我更快地找到答案。比如，当遇到编程中的难题时，清晰地描述问题的背景、代码片段以及尝试过的解决方法，可以使回答者更容易理解我的问题，提供更加准确的建议。这种方法虽然需要一些勇气，但它能够极大地提高解决问题的效率。</p>
-<p>其次，<strong>背景信息</strong>的提供也是非常重要的。在提问时，尽量提供相关的背景信息，例如使用的工具、遇到的具体情况等，这能帮助回答者更全面地理解问题。例如，如果我在学习新技术时遇到困惑，详细说明我所使用的版本和配置，可以让回答者提供更有针对性的帮助。尽管在描述这些细节时可能会感觉有些生疏，但这对于获得有效的回答是必要的。</p>
-<p>最后，<strong>礼貌和尊重</strong>不可忽视。即使我在提问时感到紧张，但保持礼貌和表达感谢是很重要的。这不仅能营造良好的交流氛围，也能让回答者感到被尊重，从而更愿意提供帮助。即使问题看起来简单，礼貌的用语也能让交流更加顺畅。</p>
-<p><strong>二、对“通过STFW和RTFM独立解决问题”的看法</strong></p>
-<p>STFW（Search The Fucking Web）和RTFM（Read The Fcuking Manual）这两种方法强调在寻求帮助之前，首先要利用已有的资源进行自助解决。这首先，<strong>STFW</strong>是解决问题的一个有效途径。互联网提供了丰富的信息资源，许多问题的解决方案都可以通过搜索引擎找到。对于性格内向的人来说，通过网络进行自助学习是一种低压力的方式，可以在不面对直接互动的情况下获取所需的信息。这种方法不仅能节省时间，还能帮助我提高自主解决问题的能力。</p>
-<p>其次，<strong>RTFM</strong>强调阅读官方文档和手册的重要性。很多技术问题的答案已经在文档中详细描述了，通过RTFM可以获得准确的指导。在我的经验中，很多时候通过查阅文档，我能找到解决问题的线索。这不仅能帮助我快速解决当前的问题，还能增加我对相关技术的了解。尽管阅读文档有时可能显得枯燥，但这是提升技术能力的必经之路。</p>
-<p>通过STFW和RTFM，我能够在遇到问题时更加自主地找到解决方案。这种方法不仅减少了对他人的依赖，也提高了我的自信心和问题解决能力。在不断学习和实践中，我逐渐认识到，虽然提问是获取帮助的一种方式，但通过自助解决问题同样重要，它能帮助我更好地理解问题并找到有效的解决办法。</p>
-<p><strong>总结</strong></p>
-<p>总的来说，“好的提问”应具备明确性、具体性和礼貌性，以提高交流效率。而通过STFW和RTFM独立解决问题，能够提升个人的自学能力和问题解决能力。我认识到提问和自助学习的重要性，并努力在这方面不断进步。通过实践这些方法，我相信我可以在遇到问题时变得更加高效和自信。</p>
+                <h2 id="PA0-世界诞生的前夜-开发环境配置"><a href="#PA0-世界诞生的前夜-开发环境配置" class="headerlink" title="PA0 - 世界诞生的前夜: 开发环境配置"></a>PA0 - 世界诞生的前夜: 开发环境配置</h2><p><strong>PA0</strong> 主要包括安装 Ubuntu 操作系统、必要工具及获取源码。在这里，我推荐几个非常实用的开发工具：</p>
+<ul>
+<li><strong>zsh</strong>：提供自动补全和个性化主题功能，提升终端使用体验。</li>
+<li><strong>autojump</strong>：帮助在文件路径之间快速跳转，提高工作效率。</li>
+<li><strong>VSCode 的 Vim 插件</strong>：在 Visual Studio Code 中集成 Vim 编辑器的操作，提高编程效率。</li>
+</ul>
+<h2 id="The-Missing-Semester-of-Your-CS-Education"><a href="#The-Missing-Semester-of-Your-CS-Education" class="headerlink" title="The Missing Semester of Your CS Education"></a>The Missing Semester of Your CS Education</h2><h3 id="1-课程概览与Shell"><a href="#1-课程概览与Shell" class="headerlink" title="1. 课程概览与Shell"></a>1. 课程概览与Shell</h3><p>Shell 是一种命令行解释器，用于与操作系统进行交互。它允许用户通过输入命令来执行各种操作，比如文件管理、进程控制、程序执行等。在类 Unix 系统中，最常用的 shell 包括 Bash、Zsh 和 Ksh 等。</p>
+<p>Shell 脚本是一系列 shell 命令的集合，可以用来自动化任务、简化复杂操作。虽然 shell 脚本的语法可能看起来简单，但它们能够处理很多复杂的功能。</p>
+<p>我个人对 shell 语言进行了简单的学习，并发现实际使用中常用的 shell 语句并不多。对于较为复杂的功能需求，通常可以通过查阅资料来解决</p>
+<ol>
+<li><strong><code>echo</code></strong>: 用于输出文本或变量的值到终端。</li>
+<li><strong><code>ls</code></strong>: 列出目录中的文件和子目录。</li>
+<li><strong><code>cd</code></strong>: 切换当前工作目录。</li>
+<li><strong><code>pwd</code></strong>: 显示当前工作目录的路径。</li>
+<li><strong><code>cp</code></strong>: 复制文件或目录。</li>
+<li><strong><code>mv</code></strong>: 移动文件或目录，或者重命名。</li>
+<li><strong><code>rm</code></strong>: 删除文件或目录。</li>
+<li><strong><code>grep</code></strong>: 在文件中搜索指定的模式。</li>
+<li><strong><code>find</code></strong>: 查找符合条件的文件或目录。</li>
+<li><strong><code>chmod</code></strong>: 修改文件或目录的权限。</li>
+</ol>
+<p>第一节课后习题记录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 检查shell环境</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$SHELL</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#2. 在/tmp下新建文件夹</span></span><br><span class="line"><span class="built_in">mkdir</span> /tmp/missing</span><br><span class="line"></span><br><span class="line"><span class="comment">#3. 查看touch的使用手册</span></span><br><span class="line">man <span class="built_in">touch</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#4.用 touch 创建文件</span></span><br><span class="line"><span class="built_in">touch</span> /tmp/missing/semester</span><br><span class="line"></span><br><span class="line"><span class="comment">#5.写入内容到文件， 注意双引号会对字符串内容进行转义</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;#!/bin/sh&#x27;</span> &gt; /tmp/missing/semester</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;curl --head --silent https://missing.csail.mit.edu&#x27;</span> &gt;&gt; /tmp/missing/semester</span><br><span class="line"></span><br><span class="line"><span class="comment">#8. 执行semester</span></span><br><span class="line"><span class="built_in">chmod</span> +x semester</span><br><span class="line">./semester</span><br><span class="line"><span class="comment"># Shell 知道文件需要使用 sh 解释器来解析，是通过文件的 shebang 行来实现的。shebang 行是文件的第一行，格式为 #! 后跟解释器的路径。例如：#!/bin/sh</span></span><br><span class="line"><span class="comment"># &#x27;#!&#x27; 是一个特殊的字符序列，告诉操作系统这个文件应该用哪个解释器来执行。</span></span><br><span class="line"><span class="comment">#  /bin/sh 是指定的解释器路径。该路径指向实际的 shell 程序。</span></span><br><span class="line"><span class="comment"># 当运行 ./semester 时，操作系统会读取文件的 shebang 行，并使用指定的解释器（在此示例中是 /bin/sh）来执行该文件的内容。</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#9. 将输出写入文件</span></span><br><span class="line">./semester | grep <span class="string">&quot;last-modified&quot;</span> &gt;&gt; last-modified.txt</span><br><span class="line"></span><br><span class="line"><span class="comment">#10. 获取电量信息或 CPU 温度</span></span><br><span class="line"><span class="built_in">cat</span> /sys/class/power_supply/BAT0/capacity</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-Shell工具和脚本"><a href="#2-Shell工具和脚本" class="headerlink" title="2. Shell工具和脚本"></a>2. Shell工具和脚本</h3><p>到目前为止，我们已经学习了如何在 Shell 中执行命令，并使用管道将命令组合起来。然而，很多时候我们需要执行一系列操作，并使用条件或循环这样的控制流。</p>
+<p>简要记录</p>
+<ul>
+<li>shell 脚本支持 <code>if</code>、<code>case</code>、<code>while</code> 和 <code>for</code> 等控制流关键字，并支持函数，函数可以接受参数并基于这些参数进行操作。</li>
+<li>特殊变量：<ul>
+<li><code>$0</code> - 脚本名</li>
+<li><code>$1</code> 到 <code>$9</code> - 脚本的参数。<code>$1</code> 是第一个参数，依此类推。</li>
+<li><code>$@</code> - 所有参数</li>
+<li><code>$#</code> - 参数个数</li>
+<li><code>$?</code> - 前一个命令的返回值</li>
+<li><code>$$</code> - 当前脚本的进程识别码</li>
+<li><code>!!</code> - 完整的上一条命令，包括参数。例如，当命令因为权限不足而失败时，可以用 <code>sudo !!</code> 再尝试一次。</li>
+<li><code>$_</code> - 上一条命令的最后一个参数。在交互式 Shell 中，可以通过按 <code>Esc</code> 后输入 <code>.</code> 来获取这个值</li>
+</ul>
+</li>
+<li>shell 命令通常使用 STDOUT 返回输出值，使用 STDERR 返回错误和错误码。返回值 <code>0</code> 表示正常执行，其他非 <code>0</code> 的返回值表示有错误发生。</li>
+<li>使用 <code>$( CMD )</code> 可以将 <code>CMD</code> 的输出替换掉 <code>$( CMD )</code></li>
+<li>TLDR 利用简明案例熟悉命令使用</li>
+<li>脚本和函数的区别(不熟悉)</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">1. <span class="built_in">ls</span>命令操作</span></span><br><span class="line">ls -lha --sort=time --color=auto</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">2. marco和polo函数(注意)</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">! /bin/bash</span></span><br><span class="line">marco()&#123;</span><br><span class="line"> export MARCO_DIR=$(pwd)</span><br><span class="line">&#125;</span><br><span class="line">polo() &#123;</span><br><span class="line">    if [ -n &quot;$MARCO_DIR&quot; ]; then</span><br><span class="line">        cd &quot;$MARCO_DIR&quot; || return</span><br><span class="line">    else</span><br><span class="line">        echo &quot;No directory has been saved. Use marco first.&quot;</span><br><span class="line">    fi</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">3. 捕获错误命令</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">记录输出的文件名</span></span><br><span class="line">LOG_FILE=&quot;output.log&quot;</span><br><span class="line">ERROR_FILE=&quot;error.log&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">清空之前的日志文件</span></span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash"><span class="string">&quot;<span class="variable">$LOG_FILE</span>&quot;</span></span></span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash"><span class="string">&quot;<span class="variable">$ERROR_FILE</span>&quot;</span></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">运行次数</span></span><br><span class="line">count=0</span><br><span class="line"></span><br><span class="line">while true; do</span><br><span class="line">    # 执行目标脚本并记录输出和错误</span><br><span class="line">    ./target.sh &gt;&gt; &quot;$LOG_FILE&quot; 2&gt;&gt; &quot;$ERROR_FILE&quot;</span><br><span class="line">    </span><br><span class="line">    # 检查退出状态码</span><br><span class="line">    if [[ $? -ne 0 ]]; then</span><br><span class="line">        break</span><br><span class="line">    fi</span><br><span class="line">    </span><br><span class="line">    # 增加运行次数</span><br><span class="line">    count=$((count + 1))</span><br><span class="line">done</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">输出日志内容</span></span><br><span class="line">echo &quot;Script output:&quot;</span><br><span class="line">cat &quot;$LOG_FILE&quot;</span><br><span class="line">echo</span><br><span class="line">echo &quot;Script errors:&quot;</span><br><span class="line">cat &quot;$ERROR_FILE&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">报告运行次数</span></span><br><span class="line">echo &quot;The script ran $count times before failing.&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">4. 压缩html文件</span></span><br><span class="line">find . -type f -name &quot;*.html&quot; -print0 | xargs -0 zip html_files.zip</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">find . -<span class="built_in">type</span> f -name <span class="string">&quot;*.html&quot;</span> -print0：在当前目录及其子目录中查找所有以 .html 结尾的文件，-print0 选项确保文件名用 null 字符分隔。</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">xargs -0 zip html_files.zip：-0 选项告诉 xargs 使用 null 字符作为输入分隔符，将 find 命令的输出传递给 zip 命令，从而将所有找到的 .html 文件压缩到 html_files.zip 文件中。</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
                 
             </div>
@@ -437,7 +471,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://drwyz.github.io/2024/08/02/%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E5%9C%B0%E6%8F%90%E9%97%AE/">http://drwyz.github.io/2024/08/02/%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E5%9C%B0%E6%8F%90%E9%97%AE/</a>
+                    <a href="http://drwyz.github.io/2024/08/02/Linux%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">http://drwyz.github.io/2024/08/02/Linux%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -474,7 +508,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E4%B8%80%E7%94%9F%E4%B8%80%E8%8A%AF%E9%A2%84%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">一生一芯预学习</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -518,9 +556,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2024/08/02/Linux%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
                     <div class="card-image">
@@ -538,9 +577,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-08-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-08-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -549,6 +588,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -567,13 +607,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/06/28/pa1/">
+                <a href="/2024/08/02/%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E5%9C%B0%E6%8F%90%E9%97%AE/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="pa1">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="如何科学地提问">
                         
-                        <span class="card-title">pa1</span>
+                        <span class="card-title">如何科学地提问</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -584,23 +624,19 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-06-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-08-02
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Yanzhi Wen
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%80%E7%94%9F%E4%B8%80%E8%8A%AF%E9%A2%84%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    一生一芯预学习
+                                </a>
+                            
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/ics2023/">
-                        <span class="chip bg-color">ics2023</span>
-                    </a>
-                    
                 </div>
                 
             </div>
